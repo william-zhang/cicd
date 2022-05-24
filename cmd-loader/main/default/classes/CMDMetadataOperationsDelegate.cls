@@ -9,7 +9,7 @@
  * This Delegate allows for testing with mocks
  */
 public inherited sharing class CMDMetadataOperationsDelegate {
-    public Id enqueueDeployment(Metadata.DeployContainer container, Metadata.DeployCallback callback) {
-      return Metadata.Operations.enqueueDeployment(container, callback);
+    public Id enqueueDeployment(Metadata.DeployContainer container, Metadata.DeployCallback cback) {
+      return Metadata.Operations.enqueueDeployment(container, cback);
     }
 }
